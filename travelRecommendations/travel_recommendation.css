@@ -1,0 +1,204 @@
+/* General Styles */
+body,html {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+html{
+    background-image: url(amalfi.jfif);
+    height: -webkit-fill-available; ;
+    background-size: cover;
+    background-position: center;
+}
+
+
+header {
+    background-color: black;
+    padding: 1px 0;
+    justify-content: space-between; /* Align items in the center */
+    align-items: left;
+    display: flex;
+    height: 50px
+
+}
+
+h1{
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1em;
+}
+
+nav .search-bar {
+    /* display: flex;
+    align-items: center; */
+    transform: translateX(18%);
+    position: relative;
+    margin-bottom: 3px;
+    width: 580px;
+}
+
+nav .search-bar input {
+    /* padding: 5px;
+    margin-right: 5px; */
+    padding: 8px 10px;
+    width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 100px;
+    position: relative;
+}
+
+.search-bar button {
+    transform: translateX(-250%);
+    padding: 5px 10px;
+    background-color: rgb(97, 160, 149);
+    color: #fff;
+    border: none;
+    position: relative;
+    top: 0;
+    right: 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* .intro {
+    flex: 1;
+    text-align: center;
+} */
+
+.container {
+    display: flex;
+    height: calc(100vh - 50px); /* Adjust based on header height */
+}
+
+.content {
+    padding: 5em 1em;
+    padding-left: 7em;
+    border-radius: 10px;
+}
+.wholepage {
+     /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    padding: 2em;
+    text-align: left;
+    color: white;
+    padding-left: 1em;
+}
+
+.social-media-links {
+    top: 70%;
+    transform: translate(-50%, -70%);
+    margin-top: 1em;
+    position:fixed ;
+}
+
+.social-media-links ul {
+    list-style: none;
+}
+.social-media-links a {
+    color: white;
+    margin: 0 0.5em;
+    text-decoration: none;
+}
+
+.social-media-links img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .headline {
+    align-items: center;
+    font-size: 4em;
+    margin: 0.5em 0;
+    max-width: 45%
+
+}
+.description {
+    margin: 1em 0;
+    word-wrap: break-word; /* Enables word wrapping */
+    overflow-wrap: break-word;
+    max-width: 50%;
+}
+.book-now-button {
+    
+    background: radial-gradient(grey, transparent) ;
+    border: none;
+    color: white;
+    transform: translateY(60px);
+    padding: 1em 2em;
+    cursor: pointer;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+.myform{
+    transform: translateX(70%);
+    border:white;
+}
+
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Styling for inputs */
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    background-color: transparent;
+    border: 1px transparent grey;
+    border-radius: 5px;
+    box-sizing: content-box;
+    text-overflow: ellipsis;
+}
+
+.form-group textarea{
+    width: 100%;
+    padding: 8px;
+    background-color: transparent;
+    border: 1px white grey;
+    border-radius: 5px;
+    box-sizing: content-box;
+    text-overflow: ellipsis;
+}
+
+/* Styling for the submit button */
+.form-group button {
+   margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(97, 160, 149);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    width:100%;
+}
+
