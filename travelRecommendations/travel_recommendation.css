@@ -81,14 +81,14 @@ nav .search-bar input {
 
 main {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     padding: 20px;
 }
 
-/* .intro {
-    flex: 1;
-    text-align: center;
-} */
+#recommendations {
+    border-left: 1px solid #ccc;
+    padding-left: 20px;
+}
 
 .container {
     display: flex;
@@ -131,7 +131,7 @@ main {
     height: 30px;
   }
 
-  .headline {
+.headline {
     align-items: center;
     font-size: 4em;
     margin: 0.5em 0;
@@ -156,8 +156,10 @@ main {
     text-transform: uppercase;
 }
 
+
 .myform{
-    transform: translateX(70%);
+    padding:25px;
+    transform: translate(0%,50%);
     border:white;
 }
 
