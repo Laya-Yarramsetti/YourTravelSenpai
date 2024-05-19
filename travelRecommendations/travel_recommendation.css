@@ -42,6 +42,10 @@ nav {
     margin: 10px;
 }
 
+.support{
+    width:50%;
+}
+
 .headingsofaboutcont{
     transform: translateX(-550px);
 }
