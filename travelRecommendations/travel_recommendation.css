@@ -1,5 +1,4 @@
-/* General Styles */
-body,html {
+body{
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -10,6 +9,9 @@ body,html {
 }
 
 html{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
     background-image: url(amalfi.jfif);
     height: -webkit-fill-available; ;
     background-size: cover;
@@ -40,6 +42,9 @@ nav {
     margin: 10px;
 }
 
+.headingsofaboutcont{
+    transform: translateX(-550px);
+}
 nav a {
     color: white;
     text-decoration: none;
@@ -81,7 +86,7 @@ nav .search-bar input {
 
 main {
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     padding: 20px;
 }
 
@@ -96,9 +101,15 @@ main {
 }
 
 .content {
+    width: 50%;
     padding: 5em 1em;
     padding-left: 7em;
     border-radius: 10px;
+}
+
+.results{
+    display: flex;
+    width:50%;
 }
 .wholepage {
      /* Replace with your image URL */
